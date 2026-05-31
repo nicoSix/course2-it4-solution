@@ -1,0 +1,12 @@
+[submodule "counter/lib/forge-std"]
+	path = counter/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "votecontract/lib/forge-std"]
+	path = votecontract/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "votetoken/lib/forge-std"]
+	path = votetoken/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "votetoken/lib/openzeppelin-contracts"]
+	path = votetoken/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

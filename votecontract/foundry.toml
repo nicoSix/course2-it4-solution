@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+# VoteToken (and its OpenZeppelin imports) live in the sibling votetoken project.
+remappings = [
+    "@openzeppelin/contracts/=../votetoken/lib/openzeppelin-contracts/contracts/",
+    "votetoken/=../votetoken/",
+]
+# Allow importing the VoteToken source from the sibling project.
+allow_paths = ["../votetoken"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
